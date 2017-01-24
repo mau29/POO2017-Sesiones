@@ -40,7 +40,7 @@ public class ArregloAlumnos
  //psvm
     public static void main(String[] args)  
     {
-        //pdeclaro variable de tipo clase Arreglos
+        //primero declaro variable de tipo clase Arreglos
         ArregloAlumnos alumnosUdla;
         //reservo espacio para la instancia
         alumnosUdla = new ArregloAlumnos();
