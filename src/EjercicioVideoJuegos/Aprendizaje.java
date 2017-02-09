@@ -78,11 +78,11 @@ public class Aprendizaje
     
     public void printAprendizaje()
     {
-        System.out.println("Tipo de vieojuego 1: " + tipo5 + " , precio: " + preciotipo5);
-        System.out.println("Tipo de videojuego 2: " + tipo6 + " , preico: " + preciotipo6);
+        System.out.println("Tipo de videojuego: " + tipo5 + ". El precio es: " + preciotipo5);
+        System.out.println("Tipo de videojuego: " + tipo6 + ". El precio es: " + preciotipo6);
         System.out.println("Para " + cantJugadoresAprendizaje + " o más jugadores");
-        System.out.println("DLC disponibles " + DLCaprendizaje);
+        System.out.println("DLC disponibles: " + DLCaprendizaje);
         System.out.println("Modo de jugabilidad elegido: " + modoJuegoAprendizaje);
-        
+        System.out.println("");
     }
 }

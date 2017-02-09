@@ -78,11 +78,11 @@ public class Aventura
     
     public void printAventura()
     {
-        System.out.println("Tipo de vieojuego 1: " + tipo3 + " , precio: " + preciotipo3);
-        System.out.println("Tipo de videojuego 2: " + tipo4 + " , preico: " + preciotipo4);
+        System.out.println("Tipo de videojuego: " + tipo3 + ". El precio es: " + preciotipo3);
+        System.out.println("Tipo de videojuego: " + tipo4 + ". El precio es: " + preciotipo4);
         System.out.println("Para " + cantJugadoresAventura + " o más jugadores");
-        System.out.println("DLC disponibles " + DLCaventura);
+        System.out.println("DLC disponibles: " + DLCaventura);
         System.out.println("Modo de jugabilidad elegido: " + modoJuegoAventura);
-        
+        System.out.println("");
     }
 }

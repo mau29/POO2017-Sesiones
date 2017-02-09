@@ -78,11 +78,11 @@ public class Estrategia
     
     public void printEstrategia()
     {
-        System.out.println("Tipo de vieojuego 1: " + tipo1 + " , precio: " + preciotipo1);
-        System.out.println("Tipo de videojuego 2: " + tipo2 + " , preico: " + preciotipo2);
+        System.out.println("Tipo de videojuego: " + tipo1 + ". El precio es: " + preciotipo1);
+        System.out.println("Tipo de videojuego: " + tipo2 + ". El precio es: " + preciotipo2);
         System.out.println("Para " + cantJugadoresEstrategia + " o más jugadores");
-        System.out.println("DLC disponibles " + DLCestrategia);
+        System.out.println("DLC disponibles: " + DLCestrategia);
         System.out.println("Modo de jugabilidad elegido: " + modoJuegoEstrategia);
-        
+        System.out.println("");
     }
 }
